@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color:;
+  margin: 40px;
+}
+
+header{
+  background-color:gold;
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media (min-width: 400px) {
+  body {
+    background-color:brown;
+  }
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:dotted;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
+
+
+
+.container-aside-article {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  width: 100%;
+  background-color:khaki;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-img {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  /* background: blue; */
+  width: 100%;
+  
+}
+
+.container-img1 {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+   background: khaki;
+  width: 100%;
+  padding: 100px;
+  margin-top: 10px;
+  color: brown;
+}
+
+article .img {
+  width: 200px;
+  height: 200px;
+  background: white;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  
+}
+
+img {
+  max-width: 200%;
+  max-height: 100%;
+ }
+
+article .texto {
+  width: 600px;
+  height: 200px;
+  background:khaki;
+  color: brown;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  a
+}
+
+
+.btn {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  }
+  
+  .botones{
+  padding: 30px;
+  }
+  
+ .btn1 {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  }
+ 
+
+  
+  
